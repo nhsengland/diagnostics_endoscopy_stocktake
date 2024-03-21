@@ -72,7 +72,7 @@ of the [Open Government 3.0][ogl] licence.
 
 ### Contact
 
-To find out more about the South East Data & Analytics team visit our [project website]([https://github.com/orgs/nhsengland/teams/south-east-pat]) or get in touch at [england.datasouth@nhs.net](mailto:england.datasouth@nhs.net).
+To find out more about the South East Data & Analytics team visit our [project website](https://github.com/orgs/nhsengland/teams/south-east-pat) or get in touch at [england.datasouth@nhs.net](mailto:england.datasouth@nhs.net).
 
 <!-- ### Acknowledgements -->
 
