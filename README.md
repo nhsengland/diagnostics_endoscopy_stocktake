@@ -1,27 +1,22 @@
-# {PROJECT NAME}
-## NHS England Digitial Analytics and Research Team - PhD Internship Project
+# Diagnostics Endoscopy Survey
+## NHS England South East regional annual endoscopy analysis - 2024
 
 ### About the Project
 
 [![status: experimental](https://github.com/GIScience/badges/raw/master/status/experimental.svg)](https://github.com/GIScience/badges#experimental)
 
-This repository holds code for the {PROJECT NAME} {SHORT DESCRIPTION}
+This repository holds code for the 2024 diagnostics south east endoscopy survey
 
-[Link to original project propsoal](https://nhsx.github.io/nhsx-internship-projects/)
-
-_**Note:** Only public or fake data are shared in this repository._
+_**Note:** No data is held in this repository. All data files are stored locally.
 
 ### Project Stucture
 
-- The main code is found in the root of the repository (see Usage below for more information)
-- The accompanying [report](./reports/report.pdf) is also available in the `reports` folder
-- More information about the code usage can be found in the [model card](./model_card.md)
-- {OTHER REPO STRUCTURE}
+- The quarto markdown file is used as the main output (HTML)
+- Each section of the analysis is as a separate R script, which is called by the markdown script
 
 ### Built With
 
-[![Python v3.8](https://img.shields.io/badge/python-v3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
-- {LIST OF MAIN PACKAGE VERSIONS}
+R
 
 ### Getting Started
 
@@ -31,31 +26,23 @@ To get a local copy up and running follow these simple steps.
 
 To clone the repo:
 
-`git clone https://github.com/nhsx/{REPO NAME}`
-
-To create a suitable environment:
-- ```python -m venv _env```
-- `source _env/bin/activate`
-- `pip install -r requirements.txt`
-
-{ADDITIONAL TECHNICAL SUPPORT AND NEEDS} 
+Clone via the 'Code' button above
 
 ### Usage
-{DESCRIPTION OF CODE}
+For use within NHS England. Only applicable to the endoscopy survey output.
 
 #### Outputs
-{LIST AND DESCRIPTION OF OUTPUTS}
+diagnostics_endoscopy_activity.qmd  <- HTML file
 
-{NOTES ON REPRODUCIBILITY OF RESULTS}
+Separate analysis done to manually add to a PowerPoint output for the customer.
 
 #### Datasets
-{DESCRIPTION AND LINKS TO DATASETS}
-
-{LINK TO FAKE DATA TO SUPPORT INITAIL CODE RUNS}
+- Annual endoscopy survey (in local team 'diagnostics' sharepoint folder)
+- DM01 (in local team 'diagnostics' sharepoint folder) <- excel extract used, extract from UDAL
 
 ### Roadmap
 
-See the {LINK TO REPO ISSUES} for a list of proposed features (and known issues).
+N/A
 
 ### Contributing
 
@@ -85,7 +72,7 @@ of the [Open Government 3.0][ogl] licence.
 
 ### Contact
 
-To find out more about the [Digitial Analytics and Research Team](https://www.nhsx.nhs.uk/key-tools-and-info/nhsx-analytics-unit/) visit our [project website](https://nhsx.github.io/AnalyticsUnit/projects.html) or get in touch at [analytics-unit@nhsx.nhs.uk](mailto:analytics-unit@nhsx.nhs.uk).
+To find out more about the South East Data & Analytics team visit our [project website]([https://github.com/orgs/nhsengland/teams/south-east-pat]) or get in touch at [england.datasouth@nhs.net](mailto:england.datasouth@nhs.net).
 
 <!-- ### Acknowledgements -->
 
