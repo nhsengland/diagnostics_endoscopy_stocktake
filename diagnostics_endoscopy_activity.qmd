@@ -108,29 +108,10 @@ Percentage of colonoscopies with a FIT10+ result
 library(dplyr)
 library(kableExtra)
 
+# Call subscript
 source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/diagnostics_endoscopy/endoscopy_fit.R")
 
-gradient_colour <- function(x) {
-  colorRampPalette(c("red", "yellow", "green"))(100)[as.integer((x - min(x)) / (max(x) - min(x)) *99) +1]
-}
-
-#master$percent_of_baseline_colour <- sapply(master$percent_of_baseline, gradient_colour)
-
-# Remove colour column
-#master <- master[, -which(names(master) == "percent_of_baseline_colour")]
-
-# Calculate totals
-#total_row <- colSums(master[, sapply(master, is.numeric)])
-#total_row[1] <- "Total"  # Label first element as "Total"
-
-# Convert totals to a data frame row
-#total_row_df <- as.data.frame(t(total_row))
-#total_row_df[, 'orgshortname'] <- "Total"
-#total_row_df <- total_row_df %>% select(c("Loc", "Baseline", "Activity", "percent_of_baseline"))
-
-# Add total row to bottom of master table
-#master <- rbind(master, total_row_df)
-
+# Create table visual output
 kable(fit_table,
              col.names = colnames(fit_table),
              caption = "Sample Table") %>%
@@ -140,8 +121,8 @@ kable(fit_table,
                column_spec(9, color = "white",
               background = spec_color(fit_table$percentageFit10[1:12], begin = 0.9, end = 0.4, option = 'H'))
 
+# Visualise charts
 a
-
 b
 
 ```
@@ -156,29 +137,10 @@ DM01 activity used, for gastroscopies and colonoscopies only.
 library(dplyr)
 library(kableExtra)
 
+# Call subscript
 source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/diagnostics_endoscopy/endoscopy_activity.R")
 
-gradient_colour <- function(x) {
-  colorRampPalette(c("red", "yellow", "green"))(100)[as.integer((x - min(x)) / (max(x) - min(x)) *99) +1]
-}
-
-#master$percent_of_baseline_colour <- sapply(master$percent_of_baseline, gradient_colour)
-
-# Remove colour column
-#master <- master[, -which(names(master) == "percent_of_baseline_colour")]
-
-# Calculate totals
-#total_row <- colSums(master[, sapply(master, is.numeric)])
-#total_row[1] <- "Total"  # Label first element as "Total"
-
-# Convert totals to a data frame row
-#total_row_df <- as.data.frame(t(total_row))
-#total_row_df[, 'orgshortname'] <- "Total"
-#total_row_df <- total_row_df %>% select(c("Loc", "Baseline", "Activity", "percent_of_baseline"))
-
-# Add total row to bottom of master table
-#master <- rbind(master, total_row_df)
-
+# Create table visual output
 kable(master,
              col.names = colnames(master),
              caption = "Sample Table") %>%
@@ -201,29 +163,10 @@ Lists per week used for current position, with following models used for future 
 library(dplyr)
 library(kableExtra)
 
+# Call subscript
 source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/diagnostics_endoscopy/future_demand_modelling.R")
 
-gradient_colour <- function(x) {
-  colorRampPalette(c("red", "yellow", "green"))(100)[as.integer((x - min(x)) / (max(x) - min(x)) *99) +1]
-}
-
-#master$percent_of_baseline_colour <- sapply(master$percent_of_baseline, gradient_colour)
-
-# Remove colour column
-#master <- master[, -which(names(master) == "percent_of_baseline_colour")]
-
-# Calculate totals
-#total_row <- colSums(master[, sapply(master, is.numeric)])
-#total_row[1] <- "Total"  # Label first element as "Total"
-
-# Convert totals to a data frame row
-#total_row_df <- as.data.frame(t(total_row))
-#total_row_df[, 'orgshortname'] <- "Total"
-#total_row_df <- total_row_df %>% select(c("Loc", "Baseline", "Activity", "percent_of_baseline"))
-
-# Add total row to bottom of master table
-#master <- rbind(master, total_row_df)
-
+# Create table visual output
 kable(lists_per_week,
              col.names = colnames(lists_per_week),
              caption = "Sample Table") %>%
