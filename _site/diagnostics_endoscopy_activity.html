@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>diagnostics_endoscopy_activity</title>
+<title>Quarto NHS Theme - Endoscopy stocktake analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,44 +23,173 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="diagnostics_endoscopy_activity_files/libs/clipboard/clipboard.min.js"></script>
-<script src="diagnostics_endoscopy_activity_files/libs/quarto-html/quarto.js"></script>
-<script src="diagnostics_endoscopy_activity_files/libs/quarto-html/popper.min.js"></script>
-<script src="diagnostics_endoscopy_activity_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="diagnostics_endoscopy_activity_files/libs/quarto-html/anchor.min.js"></script>
-<link href="diagnostics_endoscopy_activity_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="diagnostics_endoscopy_activity_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="diagnostics_endoscopy_activity_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="diagnostics_endoscopy_activity_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="diagnostics_endoscopy_activity_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="diagnostics_endoscopy_activity_files/libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="diagnostics_endoscopy_activity_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./docs/_assets/favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="_assets/style/styles.css">
+<meta property="og:title" content="Quarto NHS Theme - Endoscopy stocktake analysis">
+<meta property="og:description" content="NHS Theme">
+<meta property="og:site_name" content="Quarto NHS Theme">
 </head>
 
-<body>
+<body class="nav-fixed">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.qmd"> <i class="bi bi-box-seam" role="img">
+</i> 
+<span class="menu-text">quarto-nhs-theme</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./tutorials/index.qmd"> <i class="bi bi-bookmark-check" role="img">
+</i> 
+<span class="menu-text">Tutorials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./documentation/index.qmd"> <i class="bi bi-file-earmark-text" role="img">
+</i> 
+<span class="menu-text">Documentation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./updates.qmd"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text">Updates</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-help" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Help</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-help">    
+        <li>
+    <a class="dropdown-item" href="./about.qmd"><i class="bi bi-info-circle" role="img">
+</i> 
+ <span class="dropdown-text">About</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/nhs-r-community/quarto-nhs-theme/issues"><i class="bi bi-bug" role="img">
+</i> 
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/nhs-r-community/quarto-nhs-theme/discussions"><i class="bi bi-chat-right-text" role="img">
+</i> 
+ <span class="dropdown-text">Ask a Question</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./faq.qmd"><i class="bi bi-question-circle" role="img">
+</i> 
+ <span class="dropdown-text">FAQ</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/nhs-r-community/"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://nhsrcommunity.com/"> <i class="bi bi-cloud-fill" role="img" aria-label="NHS-R Community">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#fit10-data" id="toc-fit10-data" class="nav-link active" data-scroll-target="#fit10-data">% FIT10 data</a></li>
   <li><a href="#endoscopy-activity" id="toc-endoscopy-activity" class="nav-link" data-scroll-target="#endoscopy-activity">Endoscopy activity</a></li>
   <li><a href="#future-demand" id="toc-future-demand" class="nav-link" data-scroll-target="#future-demand">Future demand</a></li>
-<<<<<<< Updated upstream
   <li><a href="#lists" id="toc-lists" class="nav-link" data-scroll-target="#lists">Lists</a></li>
-=======
->>>>>>> Stashed changes
   </ul>
-</nav>
-</div>
+<div class="toc-actions"><ul><li><a href="https://github.com/nhs-r-community/quarto-nhs-theme/edit/main/diagnostics_endoscopy_activity.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nhs-r-community/quarto-nhs-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Endoscopy stocktake analysis</h1>
+</div>
 
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <section id="fit10-data" class="level2">
@@ -789,7 +918,6 @@ Lists per week
 </div>
 </div>
 </section>
-<<<<<<< Updated upstream
 <section id="lists" class="level2">
 <h2 class="anchored" data-anchor-id="lists">Lists</h2>
 <p>List types used by unit:</p>
@@ -802,12 +930,11 @@ Lists per week
 </div>
 </div>
 </div>
-</section>
-=======
->>>>>>> Stashed changes
 
-</main>
-<!-- /main column -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1195,7 +1322,35 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="nhs-r-community/quarto-nhs-theme" data-repo-id="" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>This page is built <a href="https://quarto.org/">Quarto</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nhs-r-community/quarto-nhs-theme/edit/main/diagnostics_endoscopy_activity.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nhs-r-community/quarto-nhs-theme/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/nhs-r-community/quarto-nhs-theme/blob/main/LICENCE">
+<p>License</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/nhs-r-community/quarto-nhs-theme/blob/main/CODE_OF_CONDUCT.md">
+<p>Code of Conduct</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

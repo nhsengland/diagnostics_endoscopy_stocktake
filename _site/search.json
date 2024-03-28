@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "diagnostics_endoscopy_activity.html",
+    "href": "diagnostics_endoscopy_activity.html",
+    "title": "Endoscopy stocktake analysis",
+    "section": "",
+    "text": "Percentage of colonoscopies with a FIT10+ result\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPercentage of colonoscopies with a FIT10+ result\n\n\n\norgshortname\n&lt;10ug/mg\n10-100ug/mg\n&gt;100ug/mg\nFIT available but no numerical value\nFIT not appropriate (anal/rectal mass or anal ulceration)\nNo FIT available\ntotalFIT\npercentageFit10\n\n\n\n\nBuckinghamshire\n106\n460\n270\n1\n2\n183\n1022\n37\n\n\nDartford\n248\n283\n160\n0\n0\n249\n940\n43\n\n\nE Kent\n736\n686\n454\n0\n0\n465\n2341\n51\n\n\nE Sussex\n176\n822\n513\nNA\nNA\n326\n1837\n38\n\n\nFrimley\n293\n650\n186\n444\n36\n263\n1872\n26\n\n\nGrt Western\n97\n616\n271\n23\n139\n73\n1219\n30\n\n\nMaidstone\n155\n196\n162\n0\n0\n200\n713\n44\n\n\nMedway\n56\n141\n88\n0\n0\n215\n500\n29\n\n\nOxford Univ\n41\n367\n148\n3\n5\n117\n681\n28\n\n\nRyl Berkshire\n121\n431\n300\n3\n4\n97\n956\n44\n\n\nSurrey & Sussex\n502\n639\n388\nNA\n0\n157\n1686\n53\n\n\nUH Sussex\n811\n1805\n1062\nNA\nNA\n426\n4104\n46"
+  },
+  {
+    "objectID": "diagnostics_endoscopy_activity.html#fit10-data",
+    "href": "diagnostics_endoscopy_activity.html#fit10-data",
+    "title": "Endoscopy stocktake analysis",
+    "section": "",
+    "text": "Percentage of colonoscopies with a FIT10+ result\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPercentage of colonoscopies with a FIT10+ result\n\n\n\norgshortname\n&lt;10ug/mg\n10-100ug/mg\n&gt;100ug/mg\nFIT available but no numerical value\nFIT not appropriate (anal/rectal mass or anal ulceration)\nNo FIT available\ntotalFIT\npercentageFit10\n\n\n\n\nBuckinghamshire\n106\n460\n270\n1\n2\n183\n1022\n37\n\n\nDartford\n248\n283\n160\n0\n0\n249\n940\n43\n\n\nE Kent\n736\n686\n454\n0\n0\n465\n2341\n51\n\n\nE Sussex\n176\n822\n513\nNA\nNA\n326\n1837\n38\n\n\nFrimley\n293\n650\n186\n444\n36\n263\n1872\n26\n\n\nGrt Western\n97\n616\n271\n23\n139\n73\n1219\n30\n\n\nMaidstone\n155\n196\n162\n0\n0\n200\n713\n44\n\n\nMedway\n56\n141\n88\n0\n0\n215\n500\n29\n\n\nOxford Univ\n41\n367\n148\n3\n5\n117\n681\n28\n\n\nRyl Berkshire\n121\n431\n300\n3\n4\n97\n956\n44\n\n\nSurrey & Sussex\n502\n639\n388\nNA\n0\n157\n1686\n53\n\n\nUH Sussex\n811\n1805\n1062\nNA\nNA\n426\n4104\n46"
+  },
+  {
+    "objectID": "diagnostics_endoscopy_activity.html#endoscopy-activity",
+    "href": "diagnostics_endoscopy_activity.html#endoscopy-activity",
+    "title": "Endoscopy stocktake analysis",
+    "section": "Endoscopy activity",
+    "text": "Endoscopy activity\nDM01 activity used, for gastroscopies and colonoscopies only.\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\nDM01 diagnostic activity (gastroscopies and colonoscopies only)\n\n\n\nLoc\nBaseline\nActivity\npercent_of_baseline\n\n\n\n\nBOB\n3087\n4191\n136\n\n\nFrim\n883\n1676\n190\n\n\nHIOW\n2519\n3501\n139\n\n\nK&M\n2094\n3580\n171\n\n\nSH\n1675\n2819\n168\n\n\nSSX\n2240\n2288\n102\n\n\nAshford\n478\n697\n146\n\n\nBuckinghamshire\n251\n580\n231\n\n\nDartford\n131\n757\n578\n\n\nE Kent\n817\n810\n99\n\n\nE Sussex\n598\n973\n163\n\n\nFrimley\n873\n1666\n191\n\n\nHampshire Hospitals\n612\n1089\n178\n\n\nIsle Of Wight\n340\n377\n111\n\n\nMaidstone\n660\n988\n150\n\n\nMedway\n318\n577\n181\n\n\nOxford Univ\n998\n1379\n138\n\n\nPortsmouth\n464\n580\n125\n\n\nRyl Berkshire\n428\n637\n149\n\n\nRyl Surrey\n524\n736\n140\n\n\nSouthampton Univ\n386\n879\n228\n\n\nSurrey & Sussex\n540\n1199\n222\n\n\nUH Sussex\n1636\n1312\n80\n\n\nIndependant Sector\n2443\n2819\n115"
+  },
+  {
+    "objectID": "diagnostics_endoscopy_activity.html#future-demand",
+    "href": "diagnostics_endoscopy_activity.html#future-demand",
+    "title": "Endoscopy stocktake analysis",
+    "section": "Future demand",
+    "text": "Future demand\nLists per week used for current position, with following models used for future demand predictions: - 120% activity - Current demand, plus 5% uplift for each subsequent year (as specified in the Richards’ Review)\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists per week\n\n\n\nLoc\nValue\n120%Activity\nModelA\nModelB\nModelC\nGap\n\n\n\n\nBOB\n180\n216\n189\n198\n208\n28\n\n\nFrimley\n82\n98\n86\n90\n94\n12\n\n\nHIOW\n247\n296\n259\n272\n286\n39\n\n\nK&M\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nSurrey\n36\n43\n38\n40\n42\n6\n\n\nSussex\n137\n164\n144\n151\n159\n22\n\n\nEndoscopy Unit Stoke Mandeville\n20\n24\n21\n22\n23\n3\n\n\nWycombe Hospital\n20\n24\n21\n22\n23\n3\n\n\nRoyal Berkshire Hospital\n42\n50\n44\n46\n48\n6\n\n\nWest Berkshire Community Hospital\n15\n18\n16\n17\n18\n3\n\n\nFrimley Park\n44\n53\n46\n48\n50\n6\n\n\nHeatherwood\n16\n19\n17\n18\n19\n3\n\n\nWrexham\n22\n26\n23\n24\n25\n3\n\n\nRoyal Hampshire County Hospital\n31\n37\n33\n35\n37\n6\n\n\nBasingstoke and North Hampshire Hospital\n30\n36\n32\n34\n36\n6\n\n\nAndover War Memorial Hospital\n18\n22\n19\n20\n21\n3\n\n\nSt. Mary's Hospital\n30\n36\n32\n34\n36\n6\n\n\nQueen Alexandra Hospital- D Level\n50\n60\n52\n55\n58\n8\n\n\nSouthampton General Hospital\n75\n90\n79\n83\n87\n12\n\n\nLymington New Forest Hospital\n13\n16\n14\n15\n16\n3\n\n\nMedway Maritime Hospital\n24\n29\n25\n26\n27\n3\n\n\nDarent Valley Hospital\n42\n50\n44\n46\n48\n6\n\n\nQEQM\n38\n46\n40\n42\n44\n6\n\n\nWilliam Harvey Hospital\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nKent & Canterbury Hospital\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nWest Berkshire Community Hospital\n15\n18\n16\n17\n18\n3\n\n\nSt Peters Hospital\n36\n43\n38\n40\n42\n6\n\n\nEastbourne District General Hospital\n30\n36\n32\n34\n36\n6\n\n\nConquest Hospital\n23\n28\n24\n25\n26\n3\n\n\nJohn Radcliffe Endoscopy Unit\n63\n76\n66\n69\n72\n9\n\n\nHorton Endoscopy Unit\n20\n24\n21\n22\n23\n3\n\n\nWorthing General Hospital\n45\n54\n47\n49\n51\n6\n\n\nSt. Richard's Hospital\n39\n47\n41\n43\n45\n6\n\n\nMaidstone Hospital\n30\n36\n32\n34\n36\n6\n\n\nTunbridge Wells Hospital\n34\n41\n36\n38\n40\n6"
+  },
+  {
+    "objectID": "diagnostics_endoscopy_activity.html#lists",
+    "href": "diagnostics_endoscopy_activity.html#lists",
+    "title": "Endoscopy stocktake analysis",
+    "section": "Lists",
+    "text": "Lists\nList types used by unit:"
+  }
+]

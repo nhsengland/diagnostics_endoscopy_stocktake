@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Publishing Your First Repo"
+  description: "test site"
+
+  navbar:
+    background: light
+    title: false
+    collapse-below: lg
+    left:
+      - text: "Endoscopy"
+        href: diagnostics_endoscopy_activity.qmd
+      # - text: "Updates"
+      #   icon: "rss"
+      #   href: updates.qmd
+      
+format:
+  html:
+    toc: true
+    theme: cosmo
+    css: styles.css
+    
+warning: false
+
+execute:
+  freeze: auto
