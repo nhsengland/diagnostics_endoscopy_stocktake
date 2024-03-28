@@ -109,7 +109,7 @@ library(dplyr)
 library(kableExtra)
 
 # Call subscript
-source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/diagnostics_endoscopy/endoscopy_fit.R")
+source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/GitHub/diagnostics_endoscopy_stocktake/endoscopy_fit.R")
 
 # Create table visual output
 kable(fit_table,
@@ -138,7 +138,7 @@ library(dplyr)
 library(kableExtra)
 
 # Call subscript
-source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/diagnostics_endoscopy/endoscopy_activity.R")
+source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/GitHub/diagnostics_endoscopy_stocktake/endoscopy_activity.R")
 
 # Create table visual output
 kable(master,
@@ -164,7 +164,7 @@ library(dplyr)
 library(kableExtra)
 
 # Call subscript
-source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/diagnostics_endoscopy/future_demand_modelling.R")
+source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/GitHub/diagnostics_endoscopy_stocktake/future_demand_modelling.R")
 
 # Create table visual output
 kable(lists_per_week,
@@ -174,5 +174,22 @@ kable(lists_per_week,
                 add_header_above(c(" ", "Lists per week" = 6)) %>%
                row_spec(0, bold = TRUE, color = "white", background = "gray") %>%
                column_spec(4, background = lists_per_week$gradient_colour)
+
+```
+
+## Lists
+
+List types used by unit:
+
+```{r}
+#| echo: false
+
+library(dplyr)
+library(kableExtra)
+
+# Call subscript
+source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/GitHub/diagnostics_endoscopy_stocktake/endoscopy_lists.R")
+
+lists_chart
 
 ```
