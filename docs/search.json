@@ -2,36 +2,197 @@
   {
     "objectID": "diagnostics_endoscopy_activity.html",
     "href": "diagnostics_endoscopy_activity.html",
-    "title": "Endoscopy stocktake analysis",
+    "title": "Publishing Your First Repo",
     "section": "",
-    "text": "Percentage of colonoscopies with a FIT10+ result\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPercentage of colonoscopies with a FIT10+ result\n\n\n\norgshortname\n&lt;10ug/mg\n10-100ug/mg\n&gt;100ug/mg\nFIT available but no numerical value\nFIT not appropriate (anal/rectal mass or anal ulceration)\nNo FIT available\ntotalFIT\npercentageFit10\n\n\n\n\nBuckinghamshire\n106\n460\n270\n1\n2\n183\n1022\n37\n\n\nDartford\n248\n283\n160\n0\n0\n249\n940\n43\n\n\nE Kent\n736\n686\n454\n0\n0\n465\n2341\n51\n\n\nE Sussex\n176\n822\n513\nNA\nNA\n326\n1837\n38\n\n\nFrimley\n293\n650\n186\n444\n36\n263\n1872\n26\n\n\nGrt Western\n97\n616\n271\n23\n139\n73\n1219\n30\n\n\nMaidstone\n155\n196\n162\n0\n0\n200\n713\n44\n\n\nMedway\n56\n141\n88\n0\n0\n215\n500\n29\n\n\nOxford Univ\n41\n367\n148\n3\n5\n117\n681\n28\n\n\nRyl Berkshire\n121\n431\n300\n3\n4\n97\n956\n44\n\n\nSurrey & Sussex\n502\n639\n388\nNA\n0\n157\n1686\n53\n\n\nUH Sussex\n811\n1805\n1062\nNA\nNA\n426\n4104\n46"
+    "text": "Map showing accreditation status of sites, along with number of endoscopy rooms"
   },
   {
     "objectID": "diagnostics_endoscopy_activity.html#fit10-data",
     "href": "diagnostics_endoscopy_activity.html#fit10-data",
-    "title": "Endoscopy stocktake analysis",
-    "section": "",
-    "text": "Percentage of colonoscopies with a FIT10+ result\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPercentage of colonoscopies with a FIT10+ result\n\n\n\norgshortname\n&lt;10ug/mg\n10-100ug/mg\n&gt;100ug/mg\nFIT available but no numerical value\nFIT not appropriate (anal/rectal mass or anal ulceration)\nNo FIT available\ntotalFIT\npercentageFit10\n\n\n\n\nBuckinghamshire\n106\n460\n270\n1\n2\n183\n1022\n37\n\n\nDartford\n248\n283\n160\n0\n0\n249\n940\n43\n\n\nE Kent\n736\n686\n454\n0\n0\n465\n2341\n51\n\n\nE Sussex\n176\n822\n513\nNA\nNA\n326\n1837\n38\n\n\nFrimley\n293\n650\n186\n444\n36\n263\n1872\n26\n\n\nGrt Western\n97\n616\n271\n23\n139\n73\n1219\n30\n\n\nMaidstone\n155\n196\n162\n0\n0\n200\n713\n44\n\n\nMedway\n56\n141\n88\n0\n0\n215\n500\n29\n\n\nOxford Univ\n41\n367\n148\n3\n5\n117\n681\n28\n\n\nRyl Berkshire\n121\n431\n300\n3\n4\n97\n956\n44\n\n\nSurrey & Sussex\n502\n639\n388\nNA\n0\n157\n1686\n53\n\n\nUH Sussex\n811\n1805\n1062\nNA\nNA\n426\n4104\n46"
+    "title": "Publishing Your First Repo",
+    "section": "% FIT10 data",
+    "text": "% FIT10 data\nPercentage of colonoscopies with a FIT10+ result\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPercentage of colonoscopies with a FIT10+ result\n\n\n\norgshortname\n&lt;10ug/mg\n10-100ug/mg\n&gt;100ug/mg\nFIT available but no numerical value\nFIT not appropriate (anal/rectal mass or anal ulceration)\nNo FIT available\ntotalFIT\npercentageFit10\n\n\n\n\nBuckinghamshire\n106\n460\n270\n1\n2\n183\n1022\n37\n\n\nDartford\n248\n283\n160\n0\n0\n249\n940\n43\n\n\nE Kent\n736\n686\n454\n0\n0\n465\n2341\n51\n\n\nE Sussex\n176\n822\n513\nNA\nNA\n326\n1837\n38\n\n\nFrimley\n293\n650\n186\n444\n36\n263\n1872\n26\n\n\nGrt Western\n97\n616\n271\n23\n139\n73\n1219\n30\n\n\nMaidstone\n155\n196\n162\n0\n0\n200\n713\n44\n\n\nMedway\n56\n141\n88\n0\n0\n215\n500\n29\n\n\nOxford Univ\n41\n367\n148\n3\n5\n117\n681\n28\n\n\nRyl Berkshire\n121\n431\n300\n3\n4\n97\n956\n44\n\n\nSurrey & Sussex\n502\n639\n388\nNA\n0\n157\n1686\n53\n\n\nUH Sussex\n811\n1805\n1062\nNA\nNA\n426\n4104\n46"
   },
   {
     "objectID": "diagnostics_endoscopy_activity.html#endoscopy-activity",
     "href": "diagnostics_endoscopy_activity.html#endoscopy-activity",
-    "title": "Endoscopy stocktake analysis",
+    "title": "Publishing Your First Repo",
     "section": "Endoscopy activity",
-    "text": "Endoscopy activity\nDM01 activity used, for gastroscopies and colonoscopies only.\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\nDM01 diagnostic activity (gastroscopies and colonoscopies only)\n\n\n\nLoc\nBaseline\nActivity\npercent_of_baseline\n\n\n\n\nBOB\n3087\n4191\n136\n\n\nFrim\n883\n1676\n190\n\n\nHIOW\n2519\n3501\n139\n\n\nK&M\n2094\n3580\n171\n\n\nSH\n1675\n2819\n168\n\n\nSSX\n2240\n2288\n102\n\n\nAshford\n478\n697\n146\n\n\nBuckinghamshire\n251\n580\n231\n\n\nDartford\n131\n757\n578\n\n\nE Kent\n817\n810\n99\n\n\nE Sussex\n598\n973\n163\n\n\nFrimley\n873\n1666\n191\n\n\nHampshire Hospitals\n612\n1089\n178\n\n\nIsle Of Wight\n340\n377\n111\n\n\nMaidstone\n660\n988\n150\n\n\nMedway\n318\n577\n181\n\n\nOxford Univ\n998\n1379\n138\n\n\nPortsmouth\n464\n580\n125\n\n\nRyl Berkshire\n428\n637\n149\n\n\nRyl Surrey\n524\n736\n140\n\n\nSouthampton Univ\n386\n879\n228\n\n\nSurrey & Sussex\n540\n1199\n222\n\n\nUH Sussex\n1636\n1312\n80\n\n\nIndependant Sector\n2443\n2819\n115"
+    "text": "Endoscopy activity\nDM01 activity used, for gastroscopies and colonoscopies only.\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\nDM01 diagnostic activity (gastroscopies and colonoscopies only)\n\n\n\nLoc\nBaseline\nActivity\npercent_of_baseline\n\n\n\n\nBOB\n3087\n4084\n132\n\n\nFrim\n883\n1618\n183\n\n\nHIOW\n2519\n3368\n134\n\n\nK&M\n2094\n3443\n164\n\n\nSH\n1675\n2635\n157\n\n\nSSX\n2240\n2088\n93\n\n\nAshford\n478\n717\n150\n\n\nBuckinghamshire\n251\n563\n224\n\n\nDartford\n131\n752\n574\n\n\nE Kent\n817\n694\n85\n\n\nE Sussex\n598\n971\n162\n\n\nFrimley\n873\n1604\n184\n\n\nHampshire Hospitals\n612\n1062\n174\n\n\nIsle Of Wight\n340\n367\n108\n\n\nMaidstone\n660\n974\n148\n\n\nMedway\n318\n551\n173\n\n\nOxford Univ\n998\n1373\n138\n\n\nPortsmouth\n464\n550\n119\n\n\nRyl Berkshire\n428\n574\n134\n\n\nRyl Surrey\n524\n706\n135\n\n\nSouthampton Univ\n386\n842\n218\n\n\nSurrey & Sussex\n540\n1038\n192\n\n\nUH Sussex\n1636\n1112\n68\n\n\nIndependant Sector\n2443\n2787\n114"
   },
   {
     "objectID": "diagnostics_endoscopy_activity.html#future-demand",
     "href": "diagnostics_endoscopy_activity.html#future-demand",
-    "title": "Endoscopy stocktake analysis",
+    "title": "Publishing Your First Repo",
     "section": "Future demand",
-    "text": "Future demand\nLists per week used for current position, with following models used for future demand predictions: - 120% activity - Current demand, plus 5% uplift for each subsequent year (as specified in the Richards’ Review)\n\n\n\nSample Table\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists per week\n\n\n\nLoc\nValue\n120%Activity\nModelA\nModelB\nModelC\nGap\n\n\n\n\nBOB\n180\n216\n189\n198\n208\n28\n\n\nFrimley\n82\n98\n86\n90\n94\n12\n\n\nHIOW\n247\n296\n259\n272\n286\n39\n\n\nK&M\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nSurrey\n36\n43\n38\n40\n42\n6\n\n\nSussex\n137\n164\n144\n151\n159\n22\n\n\nEndoscopy Unit Stoke Mandeville\n20\n24\n21\n22\n23\n3\n\n\nWycombe Hospital\n20\n24\n21\n22\n23\n3\n\n\nRoyal Berkshire Hospital\n42\n50\n44\n46\n48\n6\n\n\nWest Berkshire Community Hospital\n15\n18\n16\n17\n18\n3\n\n\nFrimley Park\n44\n53\n46\n48\n50\n6\n\n\nHeatherwood\n16\n19\n17\n18\n19\n3\n\n\nWrexham\n22\n26\n23\n24\n25\n3\n\n\nRoyal Hampshire County Hospital\n31\n37\n33\n35\n37\n6\n\n\nBasingstoke and North Hampshire Hospital\n30\n36\n32\n34\n36\n6\n\n\nAndover War Memorial Hospital\n18\n22\n19\n20\n21\n3\n\n\nSt. Mary's Hospital\n30\n36\n32\n34\n36\n6\n\n\nQueen Alexandra Hospital- D Level\n50\n60\n52\n55\n58\n8\n\n\nSouthampton General Hospital\n75\n90\n79\n83\n87\n12\n\n\nLymington New Forest Hospital\n13\n16\n14\n15\n16\n3\n\n\nMedway Maritime Hospital\n24\n29\n25\n26\n27\n3\n\n\nDarent Valley Hospital\n42\n50\n44\n46\n48\n6\n\n\nQEQM\n38\n46\n40\n42\n44\n6\n\n\nWilliam Harvey Hospital\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nKent & Canterbury Hospital\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nWest Berkshire Community Hospital\n15\n18\n16\n17\n18\n3\n\n\nSt Peters Hospital\n36\n43\n38\n40\n42\n6\n\n\nEastbourne District General Hospital\n30\n36\n32\n34\n36\n6\n\n\nConquest Hospital\n23\n28\n24\n25\n26\n3\n\n\nJohn Radcliffe Endoscopy Unit\n63\n76\n66\n69\n72\n9\n\n\nHorton Endoscopy Unit\n20\n24\n21\n22\n23\n3\n\n\nWorthing General Hospital\n45\n54\n47\n49\n51\n6\n\n\nSt. Richard's Hospital\n39\n47\n41\n43\n45\n6\n\n\nMaidstone Hospital\n30\n36\n32\n34\n36\n6\n\n\nTunbridge Wells Hospital\n34\n41\n36\n38\n40\n6"
+    "text": "Future demand\nLists per week used for current position, with following models used for future demand predictions:\n\nModel A: 120% activity\nModels B-D: Current demand, plus 5% uplift for each subsequent year (as specified in the Richards’ Review) to 2026-27\nGap: 2026-27 gap to 2023-24 lists per week requirement\n\n\n\n\nLists per week\n\n\n\n\n\n\n\n\n\n\n\n\n\nLists per week\n\n\n\nLoc\nlists_per_week\nModelA\nModelB\nModelC\nModelD\nGap\n\n\n\n\nBOB\n180\n216\n189\n198\n208\n28\n\n\nFrimley\n82\n98\n86\n90\n94\n12\n\n\nHIOW\n247\n296\n259\n272\n286\n39\n\n\nK&M\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nSurrey\n36\n43\n38\n40\n42\n6\n\n\nSussex\n137\n164\n144\n151\n159\n22\n\n\nEndoscopy Unit Stoke Mandeville\n20\n24\n21\n22\n23\n3\n\n\nWycombe Hospital\n20\n24\n21\n22\n23\n3\n\n\nRoyal Berkshire Hospital\n42\n50\n44\n46\n48\n6\n\n\nWest Berkshire Community Hospital\n15\n18\n16\n17\n18\n3\n\n\nFrimley Park\n44\n53\n46\n48\n50\n6\n\n\nHeatherwood\n16\n19\n17\n18\n19\n3\n\n\nWrexham\n22\n26\n23\n24\n25\n3\n\n\nRoyal Hampshire County Hospital\n31\n37\n33\n35\n37\n6\n\n\nBasingstoke and North Hampshire Hospital\n30\n36\n32\n34\n36\n6\n\n\nAndover War Memorial Hospital\n18\n22\n19\n20\n21\n3\n\n\nSt. Mary's Hospital\n30\n36\n32\n34\n36\n6\n\n\nQueen Alexandra Hospital- D Level\n50\n60\n52\n55\n58\n8\n\n\nSouthampton General Hospital\n75\n90\n79\n83\n87\n12\n\n\nLymington New Forest Hospital\n13\n16\n14\n15\n16\n3\n\n\nMedway Maritime Hospital\n24\n29\n25\n26\n27\n3\n\n\nDarent Valley Hospital\n42\n50\n44\n46\n48\n6\n\n\nQEQM\n38\n46\n40\n42\n44\n6\n\n\nWilliam Harvey Hospital\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nKent & Canterbury Hospital\nNA\nNA\nNA\nNA\nNA\nNA\n\n\nWest Berkshire Community Hospital\n15\n18\n16\n17\n18\n3\n\n\nSt Peters Hospital\n36\n43\n38\n40\n42\n6\n\n\nEastbourne District General Hospital\n30\n36\n32\n34\n36\n6\n\n\nConquest Hospital\n23\n28\n24\n25\n26\n3\n\n\nJohn Radcliffe Endoscopy Unit\n63\n76\n66\n69\n72\n9\n\n\nHorton Endoscopy Unit\n20\n24\n21\n22\n23\n3\n\n\nWorthing General Hospital\n45\n54\n47\n49\n51\n6\n\n\nSt. Richard's Hospital\n39\n47\n41\n43\n45\n6\n\n\nMaidstone Hospital\n30\n36\n32\n34\n36\n6\n\n\nTunbridge Wells Hospital\n34\n41\n36\n38\n40\n6"
   },
   {
     "objectID": "diagnostics_endoscopy_activity.html#lists",
     "href": "diagnostics_endoscopy_activity.html#lists",
-    "title": "Endoscopy stocktake analysis",
+    "title": "Publishing Your First Repo",
     "section": "Lists",
     "text": "Lists\nList types used by unit:"
+  },
+  {
+    "objectID": "diagnostics_endoscopy_activity.html#accreditation-status-map",
+    "href": "diagnostics_endoscopy_activity.html#accreditation-status-map",
+    "title": "Publishing Your First Repo",
+    "section": "",
+    "text": "Map showing accreditation status of sites, along with number of endoscopy rooms"
+  },
+  {
+    "objectID": "OPEN_CODE_CHECKLIST.html",
+    "href": "OPEN_CODE_CHECKLIST.html",
+    "title": "Open Code Checklist",
+    "section": "",
+    "text": "To ensure that the code we publish is appropraite, clear and reusable we require a set way of working when pushing code to private and public repoistories. It is difficult to set any precise but generic standards and so we ask that the following checklist is considered with mandatroy items filled out.\n\n\n\n\n\nDoes your code have an appropriate licence and copyright notice? (Mandatory)\nIs there a README and does it document intended purpose? (Mandatory)\nIs the README clear and concise? (Optional - use analytics unit template or example)\nDo you need to consider MHRA ‘software as a medical device’ guidance? (Mandatory - use flowchart)\nWho has responsibility for ongoing support and communications for the code? (Optional Best practice to assign, else state the code is not maintained and when the last update was)\nHas a responsible disclosure process for security issues been defined? (Mandatory - could use github issues)\nWho will address identified issues and security concerns? (Mandatory. - assign monitoring of above disclosure process)\nHas semantic versioning been used? (Optional)\nHave contribution guidelines or PR style guides been included? (Optional)\nAre package dependencies and libaries documented with versions? (Optional)\nHas the code been linked to any published outputs so others can easily link to the code? (Optional)\n\n\n\n\n\nDoes the code include any sensitive, personal, secret or top secret data/information? (Mandatory)\nDoes the code include any unreleased policy? (Mandatory)\nDoes the code include business sensitive algorithms (e.g. finance allocations)? (Mandatory)\nHas written permission been obtained for any data stored from the data owner? (Mandatory)\nAre owners of services which the code fulfils aware of the release? (Mandatory)\nAre any data transfers conducted safely and securely? (Mandatory)\nAre any credentials contained in the source code? (Mandatory - check in both current version and git history)\nAre any secret keys contained in the source code? (Mandatory - check in both current version and git history)\nAre any SQL server addresses or connection strings in the source code? (Mandatory - check in both current version and git history)\nAre the commit messages informative? (Optional)\nDo the commit messages include any sensitive information (e.g. names)? (Mandatory)\nDoes the git history contain any sensitive information (e.g. at one time real data or credentials were in the code but have since been removed) (Mandatory)\nHave notebook outputs been removed/checked for sensitive information? (Mandatory - check but some appropriate outputs maybe useful: Example)\nIs configuration written as code and separated from analytical code? (Optional)\nhave you checked any screenshots or figures in your outputs and documentation for information that shouldn’t be released? (Mandatory)\n\n\n\n\n\nIs the code version controlled using GIT or similar? (Optional)\nIs the code stored in your organisational GitHub account? Is it the same organisation that funds the relevant staff time? (Optional)\n\n\n\n\n\nAre third party tools used within the code? (Mandatory check. Best practice is to keep an inventory)\nIf so do they adhere to the NCSC’s Cloud Security Principles? (Mandatory)\n\n\n\n\n\nHas a colleague reviewed the code for sensitive data content and security vulnerabilities? (Mandatory - Best practice is to record automated code quality and security tools used)\nHas a code quality review been completed focussing on the end usability and clarity? (Optional - consider runing through the example or similar code quality checklist)\nHas the code been assessed for its level or RAP(Reproducible Analytical Pipeline)? (Optional)\nHas the code undergone some level of testing. The level of teting required will depend on the specific code and use-case but as minimum it should work in a fresh environment with arteficial data. (Optional)"
+  },
+  {
+    "objectID": "OPEN_CODE_CHECKLIST.html#when-publishing-your-code-you-need-to-make-sure",
+    "href": "OPEN_CODE_CHECKLIST.html#when-publishing-your-code-you-need-to-make-sure",
+    "title": "Open Code Checklist",
+    "section": "",
+    "text": "Does your code have an appropriate licence and copyright notice? (Mandatory)\nIs there a README and does it document intended purpose? (Mandatory)\nIs the README clear and concise? (Optional - use analytics unit template or example)\nDo you need to consider MHRA ‘software as a medical device’ guidance? (Mandatory - use flowchart)\nWho has responsibility for ongoing support and communications for the code? (Optional Best practice to assign, else state the code is not maintained and when the last update was)\nHas a responsible disclosure process for security issues been defined? (Mandatory - could use github issues)\nWho will address identified issues and security concerns? (Mandatory. - assign monitoring of above disclosure process)\nHas semantic versioning been used? (Optional)\nHave contribution guidelines or PR style guides been included? (Optional)\nAre package dependencies and libaries documented with versions? (Optional)\nHas the code been linked to any published outputs so others can easily link to the code? (Optional)\n\n\n\n\n\nDoes the code include any sensitive, personal, secret or top secret data/information? (Mandatory)\nDoes the code include any unreleased policy? (Mandatory)\nDoes the code include business sensitive algorithms (e.g. finance allocations)? (Mandatory)\nHas written permission been obtained for any data stored from the data owner? (Mandatory)\nAre owners of services which the code fulfils aware of the release? (Mandatory)\nAre any data transfers conducted safely and securely? (Mandatory)\nAre any credentials contained in the source code? (Mandatory - check in both current version and git history)\nAre any secret keys contained in the source code? (Mandatory - check in both current version and git history)\nAre any SQL server addresses or connection strings in the source code? (Mandatory - check in both current version and git history)\nAre the commit messages informative? (Optional)\nDo the commit messages include any sensitive information (e.g. names)? (Mandatory)\nDoes the git history contain any sensitive information (e.g. at one time real data or credentials were in the code but have since been removed) (Mandatory)\nHave notebook outputs been removed/checked for sensitive information? (Mandatory - check but some appropriate outputs maybe useful: Example)\nIs configuration written as code and separated from analytical code? (Optional)\nhave you checked any screenshots or figures in your outputs and documentation for information that shouldn’t be released? (Mandatory)\n\n\n\n\n\nIs the code version controlled using GIT or similar? (Optional)\nIs the code stored in your organisational GitHub account? Is it the same organisation that funds the relevant staff time? (Optional)\n\n\n\n\n\nAre third party tools used within the code? (Mandatory check. Best practice is to keep an inventory)\nIf so do they adhere to the NCSC’s Cloud Security Principles? (Mandatory)\n\n\n\n\n\nHas a colleague reviewed the code for sensitive data content and security vulnerabilities? (Mandatory - Best practice is to record automated code quality and security tools used)\nHas a code quality review been completed focussing on the end usability and clarity? (Optional - consider runing through the example or similar code quality checklist)\nHas the code been assessed for its level or RAP(Reproducible Analytical Pipeline)? (Optional)\nHas the code undergone some level of testing. The level of teting required will depend on the specific code and use-case but as minimum it should work in a fresh environment with arteficial data. (Optional)"
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "Contributing",
+    "section": "",
+    "text": "We love contributions! We’ve compiled these docs to help you understand our contribution guidelines. If you still have questions, please contact us, we’d be super happy to help.\n\n\n\nCode of conduct\nFolder structure\nCommit hygiene\nUpdating Changelog\n\n\n\n\nPlease read CODE_OF_CONDUCT.md before contributing.\n\n\n\nPlease see the GDS Git style guide in the ‘How to store source code’ page of the GDS Way, which describes how we prefer Git history and commit messages to read.\n\n\n\nIf you open a GitHub pull request on this repo, please update CHANGELOG to reflect your contribution.\nAdd your entry under Unreleased as: - Breaking changes - New features - Fixes\nInternal changes to the project that are not part of the public API do not need changelog entries, for example fixing the CI build server.\nThese sections follow semantic versioning, where:\n\nBreaking changes corresponds to a major (1.X.X) change.\nNew features corresponds to a minor (X.1.X) change.\nFixes corresponds to a patch (X.X.1) change.\n\nSee the CHANGELOG.md for an example for how this looks."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#contents-of-this-file",
+    "href": "CONTRIBUTING.html#contents-of-this-file",
+    "title": "Contributing",
+    "section": "",
+    "text": "Code of conduct\nFolder structure\nCommit hygiene\nUpdating Changelog"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#code-of-conduct",
+    "href": "CONTRIBUTING.html#code-of-conduct",
+    "title": "Contributing",
+    "section": "",
+    "text": "Please read CODE_OF_CONDUCT.md before contributing."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#commit-hygiene",
+    "href": "CONTRIBUTING.html#commit-hygiene",
+    "title": "Contributing",
+    "section": "",
+    "text": "Please see the GDS Git style guide in the ‘How to store source code’ page of the GDS Way, which describes how we prefer Git history and commit messages to read."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#updating-the-changelog",
+    "href": "CONTRIBUTING.html#updating-the-changelog",
+    "title": "Contributing",
+    "section": "",
+    "text": "If you open a GitHub pull request on this repo, please update CHANGELOG to reflect your contribution.\nAdd your entry under Unreleased as: - Breaking changes - New features - Fixes\nInternal changes to the project that are not part of the public API do not need changelog entries, for example fixing the CI build server.\nThese sections follow semantic versioning, where:\n\nBreaking changes corresponds to a major (1.X.X) change.\nNew features corresponds to a minor (X.1.X) change.\nFixes corresponds to a patch (X.X.1) change.\n\nSee the CHANGELOG.md for an example for how this looks."
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "All notable changes to this project will be documented in this file.\nInstructions on how to update this Changelog are available in the Updating the Changelog section of the CONTRIBUTING.md. This project follows semantic versioning.\n\n\n\n\n\n{LIST OF MAJOR CHANGES}\n\n\n\n\n\n{LIST OF NEW FEATURES}\n\n\n\n\n\n{LIST OF FIXES}"
+  },
+  {
+    "objectID": "CHANGELOG.html#unreleased-v1.0.0",
+    "href": "CHANGELOG.html#unreleased-v1.0.0",
+    "title": "Changelog",
+    "section": "",
+    "text": "{LIST OF MAJOR CHANGES}\n\n\n\n\n\n{LIST OF NEW FEATURES}\n\n\n\n\n\n{LIST OF FIXES}"
+  },
+  {
+    "objectID": "CODE_OF_CODUCT.html",
+    "href": "CODE_OF_CODUCT.html",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.\n\n\n\nExamples of behavior that contributes to creating a positive environment include:\n\nUsing welcoming and inclusive language\nBeing respectful of differing viewpoints and experiences\nGracefully accepting constructive criticism\nFocusing on what is best for the community\nShowing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\nTrolling, insulting/derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or electronic address, without explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting\n\n\n\n\nProject maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.\n\n\n\nThis Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.\n\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at analytics-unit@nhsx.nhs.uk. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership.\n\n\n\nThis Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\nFor answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq"
+  },
+  {
+    "objectID": "CODE_OF_CODUCT.html#our-pledge",
+    "href": "CODE_OF_CODUCT.html#our-pledge",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation."
+  },
+  {
+    "objectID": "CODE_OF_CODUCT.html#our-standards",
+    "href": "CODE_OF_CODUCT.html#our-standards",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Examples of behavior that contributes to creating a positive environment include:\n\nUsing welcoming and inclusive language\nBeing respectful of differing viewpoints and experiences\nGracefully accepting constructive criticism\nFocusing on what is best for the community\nShowing empathy towards other community members\n\nExamples of unacceptable behavior by participants include:\n\nThe use of sexualized language or imagery and unwelcome sexual attention or advances\nTrolling, insulting/derogatory comments, and personal or political attacks\nPublic or private harassment\nPublishing others’ private information, such as a physical or electronic address, without explicit permission\nOther conduct which could reasonably be considered inappropriate in a professional setting"
+  },
+  {
+    "objectID": "CODE_OF_CODUCT.html#our-responsibilities",
+    "href": "CODE_OF_CODUCT.html#our-responsibilities",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.\nProject maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful."
+  },
+  {
+    "objectID": "CODE_OF_CODUCT.html#scope",
+    "href": "CODE_OF_CODUCT.html#scope",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers."
+  },
+  {
+    "objectID": "CODE_OF_CODUCT.html#enforcement",
+    "href": "CODE_OF_CODUCT.html#enforcement",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at analytics-unit@nhsx.nhs.uk. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.\nProject maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project’s leadership."
+  },
+  {
+    "objectID": "CODE_OF_CODUCT.html#attribution",
+    "href": "CODE_OF_CODUCT.html#attribution",
+    "title": "Contributor Covenant Code of Conduct",
+    "section": "",
+    "text": "This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html\nFor answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq"
+  },
+  {
+    "objectID": "model_card.html",
+    "href": "model_card.html",
+    "title": "Model Card: {PROJECT NAME}",
+    "section": "",
+    "text": "The implementation of the {PROJECT NAME} within this repository was created as part of an NHS England PhD internship project undertaken by {PROJECT AUTHOR} {LINK TO LAST COMMIT WITH ABBREVIATED SHA}. This model card describes the updated version of the model, released {DATE OF RELEASE}.\n\n\n\n\n\nThis model is intended for use in {BRIEF DESCRIPTION OF USE}\n\n\n\nThis model is not suitable to provide privacy guarantees in a production environment.\n{DETAIL KNOWN CASES WHERE PRIVACY IS NOT GUARENTEED}\n\n\n\n\nExperiments in this repository are run against:\n{LIST AND LINK DATA SOURCES}\n\n\n\n{DETAIL PERFORMANCE EXPECTATIONS and LIMITATIONS}\n\n\n\n{DETAIL SUPPLEMENTARY INFORMATION}"
+  },
+  {
+    "objectID": "model_card.html#model-details",
+    "href": "model_card.html#model-details",
+    "title": "Model Card: {PROJECT NAME}",
+    "section": "",
+    "text": "The implementation of the {PROJECT NAME} within this repository was created as part of an NHS England PhD internship project undertaken by {PROJECT AUTHOR} {LINK TO LAST COMMIT WITH ABBREVIATED SHA}. This model card describes the updated version of the model, released {DATE OF RELEASE}."
+  },
+  {
+    "objectID": "model_card.html#model-use",
+    "href": "model_card.html#model-use",
+    "title": "Model Card: {PROJECT NAME}",
+    "section": "",
+    "text": "This model is intended for use in {BRIEF DESCRIPTION OF USE}\n\n\n\nThis model is not suitable to provide privacy guarantees in a production environment.\n{DETAIL KNOWN CASES WHERE PRIVACY IS NOT GUARENTEED}"
+  },
+  {
+    "objectID": "model_card.html#training-data",
+    "href": "model_card.html#training-data",
+    "title": "Model Card: {PROJECT NAME}",
+    "section": "",
+    "text": "Experiments in this repository are run against:\n{LIST AND LINK DATA SOURCES}"
+  },
+  {
+    "objectID": "model_card.html#performance-and-limitations",
+    "href": "model_card.html#performance-and-limitations",
+    "title": "Model Card: {PROJECT NAME}",
+    "section": "",
+    "text": "{DETAIL PERFORMANCE EXPECTATIONS and LIMITATIONS}"
+  },
+  {
+    "objectID": "model_card.html#additional-notes",
+    "href": "model_card.html#additional-notes",
+    "title": "Model Card: {PROJECT NAME}",
+    "section": "",
+    "text": "{DETAIL SUPPLEMENTARY INFORMATION}"
   }
 ]

@@ -1,6 +1,116 @@
 ---
-title: "Endoscopy stocktake analysis"
+project:
+  type: website
+    
+website:
+  open-graph: true
+  title: "Endoscopy stocktake analysis"
+  description: "NHS Theme"
+  site-url: https://nhs-r-community.github.io/quarto-nhs-theme
+  favicon: docs/_assets/favicon.ico
+  repo-url: https://github.com/nhs-r-community/quarto-nhs-theme
+  repo-actions: [edit, issue]
+
+  page-footer:
+    left: "This page is built [Quarto](https://quarto.org/)."
+    right:
+    - text: "License"
+      href: https://github.com/nhs-r-community/quarto-nhs-theme/blob/main/LICENCE
+    - text: "Code of Conduct"
+      href: https://github.com/nhs-r-community/quarto-nhs-theme/blob/main/CODE_OF_CONDUCT.md
+
+  navbar:
+    background: light
+    title: false
+    collapse-below: lg
+    left:
+      - text: "quarto-nhs-theme"
+        icon: "box-seam"
+        href: index.qmd
+      - text: "Tutorials"
+        icon: "bookmark-check"
+        href: tutorials/index.qmd
+      - text: "Documentation"
+        icon: "file-earmark-text"
+        href: documentation/index.qmd
+      - text: "Updates"
+        icon: "rss"
+        href: updates.qmd
+    right:
+      - text: "Help"
+        menu:
+          - text: "About"
+            icon: "info-circle"
+            href: about.qmd
+          - text: "Report a Bug"
+            icon: "bug"
+            href: "https://github.com/nhs-r-community/quarto-nhs-theme/issues"
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+            href: "https://github.com/nhs-r-community/quarto-nhs-theme/discussions"
+          - text: "FAQ"
+            icon: "question-circle"
+            href: faq.qmd
+      - icon: github
+        href: https://github.com/nhs-r-community/
+        aria-label: GitHub
+      - icon: cloud-fill
+        href: https://nhsrcommunity.com/
+        aria-label: NHS-R Community
+  sidebar:
+    id: toc-side
+    style: "floating"
+    pinned: true
+    contents:
+      - text: "Homepage" 
+        file: index.qmd
+      - text: "Contribute to docs"
+        file: contribute.qmd
+      - section: Tutorials
+        file: tutorials/index.qmd
+        contents: 
+          - auto: tutorials/*.qmd
+      - section: Documentation
+        file: documentation/index.qmd
+        contents: 
+          - auto: documentation/*.qmd
+      - text: "FAQ"
+        file: faq.qmd
+      - text: "About"
+        file: about.qmd
+  comments:
+    giscus:
+      repo: nhs-r-community/quarto-nhs-theme
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    theme:
+      light: [cosmo, _assets/style/theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: _assets/style/styles.css
+    include-after-body: _assets/style/js.html
+    
+warning: false
+
+execute:
+  freeze: auto
 ---
+
+## % Accreditation status map
+
+Map showing accreditation status of sites, along with number of endoscopy rooms
+
+```{r}
+#| echo: false
+
+# Call subscript
+source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/GitHub/diagnostics_endoscopy_stocktake/accreditation_map.R")
+
+map
+
+```
 
 ## % FIT10 data
 
@@ -59,7 +169,11 @@ kable(master,
 
 ## Future demand
 
-Lists per week used for current position, with following models used for future demand predictions: - 120% activity - Current demand, plus 5% uplift for each subsequent year (as specified in the Richards' Review)
+Lists per week used for current position, with following models used for future demand predictions: 
+
+- Model A: 120% activity 
+- Models B-D: Current demand, plus 5% uplift for each subsequent year (as specified in the Richards' Review) to 2026-27
+- Gap: 2026-27 gap to 2023-24 lists per week requirement
 
 ```{r}
 #| echo: false
@@ -73,7 +187,7 @@ source("C:/Users/martin.bloyce/OneDrive - NHS England/Documents/GitHub/diagnosti
 # Create table visual output
 kable(lists_per_week,
              col.names = colnames(lists_per_week),
-             caption = "Sample Table") %>%
+             caption = "Lists per week") %>%
                kable_styling(full_width = FALSE) %>%
                 add_header_above(c(" ", "Lists per week" = 6)) %>%
                row_spec(0, bold = TRUE, color = "white", background = "gray") %>%

@@ -13,7 +13,7 @@ lists_per_week <- subset(endoscopy_stocktake,
                          endoscopy_stocktake$QuestionKey == '27',
                          select = c('UnitName', 'Value')
                          )
-colnames(lists_per_week) <- c("Loc", "Value")  # Rename columns
+colnames(lists_per_week) <- c("Loc", "lists_per_week")  # Rename columns
 
 # Create region level data
 lists_per_week_region <- endoscopy_stocktake %>%
@@ -43,36 +43,37 @@ lists_per_week_ICB <- lists_per_week_ICB %>%
   group_by(ICB) %>%
   summarise(Value = sum(Value))
 
-colnames(lists_per_week_ICB) <- c("Loc", "Value")  # Rename columns
+colnames(lists_per_week_ICB) <- c("Loc", "lists_per_week")  # Rename columns
 
 # Bring tables together
 lists_per_week <- rbind(lists_per_week_ICB, lists_per_week)
 
-# Create 120% activity calculation ## NEEDS WORK ##
-  lists_per_week$Value <- as.numeric(lists_per_week$Value)
-  lists_per_week$'120%Activity' <- round(lists_per_week$Value * 1.2)
-  
+# Create 120% activity calculation
+lists_per_week <- lists_per_week %>%
+  mutate(lists_per_week = as.numeric(lists_per_week),
+         ModelA = round(lists_per_week * 1.2))
+
 # Create 5% increase models
-  #2024-25
+#2024-25
 lists_per_week <- lists_per_week %>%
                       mutate(
-                        ModelA = round(Value * 1.05)
+                        ModelB = round(lists_per_week * 1.05)
                       )
 
 #2025-26
 lists_per_week <- lists_per_week %>%
   mutate(
-    ModelB = round(ModelA * 1.05)
+    ModelC = round(ModelB * 1.05)
   )
 
 #2026-27
 lists_per_week <- lists_per_week %>%
   mutate(
-    ModelC = round(ModelB * 1.05)
+    ModelD = round(ModelC * 1.05)
   )
 
 # Gap baseline to 2026-27
 lists_per_week <- lists_per_week %>%
   mutate(
-    Gap = round(ModelC - Value)
+    Gap = round(ModelD - lists_per_week)
   )

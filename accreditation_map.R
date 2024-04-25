@@ -1,8 +1,8 @@
 # remove ggmaps and reinstall to allow for stadia maps setup
-remove.packages("ggmap")
-install.packages("devtools")
-devtools::install_github("stadiamaps/ggmap")
-library("ggmap")
+#remove.packages("ggmap")
+#install.packages("devtools")
+#devtools::install_github("stadiamaps/ggmap")
+library(ggmap)
 library(readxl)
 library(dplyr)
 library(ggthemes)
@@ -33,7 +33,7 @@ JAG_status$accreditation_status <- ifelse(grepl("ccred", JAG_status$accreditatio
 # set the data out properly
 JAG_status <- JAG_status %>% 
   group_by(name) %>%
-  summarise(num_endo_rooms = as.numeric(last(num_endo_rooms)),
+  reframe(num_endo_rooms = as.numeric(last(num_endo_rooms)),
             accreditation_status = accreditation_status[!is.na(accreditation_status)], # remove NAs from list to bring into one row per name
             postcode = first(postcode))
 
@@ -47,7 +47,7 @@ register_stadiamaps(key = "c5c80bbf-69e1-422a-a060-24bf4322e9e1")
 # create map for region (tip: use OpenStreetMap to get co-ordinates for bbox)
 south_east_map <- get_stadiamap(
   bbox = c(left = -1.8, bottom = 50.5, right = 1.6, top = 51.9),
-  maptype = "osm_bright",
+  maptype = "outdoors",
   zoom = 9
 )
 
@@ -59,11 +59,12 @@ map <- ggmap(south_east_map) +
   scale_size(range = c(3, 10))
   theme_map()
 
-map + scale_color_manual(values=c("#005EB8", "#41B6E6", "#8A1538", "#FFB81C")) + # set colours to something which makes more sense
+map <- map + scale_color_manual(values=c("#005EB8", "#41B6E6", "#8A1538", "#FFB81C")) + # set colours to something which makes more sense
   theme(axis.line = element_blank(),                                             # remove lat lon axes and whitespace margin
         axis.text = element_blank(),
         axis.ticks = element_blank(),
         plot.margin = unit(c(0, 0, -1, -1), 'lines')) +
   xlab('') +
   ylab('')
-  
+
+rm(list = setdiff(ls(), "map"))
