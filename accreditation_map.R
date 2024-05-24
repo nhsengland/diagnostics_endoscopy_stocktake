@@ -9,12 +9,14 @@ library(ggthemes)
 library(sf)
 library(colorspace)
 
+scriptlocation <- dirname(rstudioapi::getActiveDocumentContext()$path)
+setwd(scriptlocation)
 
 # bring in data
-df <- read_excel("C:/Users/GeorginaCable/NHS/Regional Analytics - South East - Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
+df <- read_excel("Endoscopy Stocktake Database with pivot table.xlsx", 
                  sheet = "Backing Data")
 
-AdditionalRoomsData <- read_excel("C:/Users/GeorginaCable/NHS/Regional Analytics - South East - Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
+AdditionalRoomsData <- read_excel("Endoscopy Stocktake Database with pivot table.xlsx", 
                  sheet = "Endoscopy Estate (Slide5)", range="D2:I27")
 
 AdditionalRooms <- AdditionalRoomsData %>% 
@@ -38,7 +40,7 @@ AdditionalRooms$ExtraRooms <- round(AdditionalRooms$ExtraRooms,2)
 AdditionalRooms <- AdditionalRooms[grep("ICB$", AdditionalRooms$Location), ]
 
 # bring in postcodes lat lon lookup table
-ukpostcodes <- read.csv("C:/Users/GeorginaCable/Downloads/ukpostcodes.csv")
+ukpostcodes <- read.csv("ukpostcodes.csv")
 
 question_filter <- c("What is the units postcode",
                      "What is the units JAG accreditation status",
@@ -79,7 +81,7 @@ south_east_map
 # get ICB boundaries GeoJSON
 # https://geoportal.statistics.gov.uk/datasets/76dad7f9577147b2b636d4f95345d28d_0/explore
 # File name = Integrated Care Boards (April 2023) EN BSC
-icb_data <- sf::read_sf("C:/Users/GeorginaCable/Downloads/Integrated_Care_Boards_April_2023_EN_BSC_7929772807133590321.geojson")
+icb_data <- sf::read_sf("Integrated_Care_Boards_April_2023_EN_BSC.geojson")
 
 se_codes <- subset(icb_data, FID %in% c(18, 19, 26, 28, 41, 42))
 
@@ -93,7 +95,7 @@ icb_boundaries <- se_codes %>%
 #Transform coordinate reference system to match the one in Stadia Maps  
 icb_boundaries <- st_transform(icb_boundaries, crs = 4326)
 
-# create map
+# create map with markers
 map <- ggmap(south_east_map)  +
   geom_point(data = JAG_status,
                aes(x = longitude, y = latitude, colour=accreditation_status, size = num_endo_rooms, stroke=2), alpha = 0.95) +
@@ -120,7 +122,7 @@ map <- map + geom_sf(data = icb_boundaries, alpha = 0.01, show.legend = NA, line
   coord_sf(expand = FALSE, datum = sf::st_crs(4326))
 map
 
-# Create colour for ICBs
+# Create fill colour for ICB polygons
 br <- c(-10, 0, 1.5, 3,10)
 icb_boundaries$bins <- cut(icb_boundaries$ExtraRooms,breaks = br)
 
