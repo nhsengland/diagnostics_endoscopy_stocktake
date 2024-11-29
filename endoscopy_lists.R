@@ -6,7 +6,9 @@ library(readxl)
 library(tidyverse)
 
 # Import data
-endoscopy_stocktake <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Restricted Library/SE/Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
+# endoscopy_stocktake <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Restricted Library/SE/Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
+#                                                             sheet = "Backing Data", skip = 2)
+endoscopy_stocktake <- read_excel("C:/Users/GeorginaCable/OneDrive - NHS/Analysis/Diagnostics/Endoscopy Stocktake/240916 Endoscopy Stocktake Analysis.xlsx", 
                                   sheet = "Backing Data", skip = 2)
 
 # Rename column headers
@@ -33,18 +35,20 @@ lists <- lists %>%
 # Rename lists col headers
 colnames(lists) <- c('UnitName','TotalLists','NonGILists','BCSPLists','StandardGILists','ERCP_EUSLists','OtherGILists')
 
+colnames(lists)[1] <- 'Unit' # rename Loc 
+
 # Unpivot for chart
 lists_chart_data <- subset(lists, select = -2)
 
 lists_chart_data <- lists_chart_data %>% 
   pivot_longer(
-    cols = !UnitName,
+    cols = !Unit,
     names_to = "ListType",
     values_to = "Value"
 )
 
 lists_chart <- lists_chart_data %>%
-  ggplot(., aes(x=UnitName, y=Value, fill=ListType)) +
+  ggplot(., aes(x=Unit, y=Value, fill=`ListType`)) +
   geom_bar(position = "fill", stat = "identity", show.legend = TRUE) +
   theme(axis.text.x = element_text(angle = 90)) +
   scale_y_continuous(labels = scales::percent) +
