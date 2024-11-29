@@ -2,8 +2,10 @@ library(dplyr)
 library(readxl)
 
 # Import data
-endoscopy_stocktake <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Restricted Library/SE/Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
-                                                            sheet = "Backing Data", skip = 2)
+# endoscopy_stocktake <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Restricted Library/SE/Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
+#                                                             sheet = "Backing Data", skip = 2)
+endoscopy_stocktake <- read_excel("C:/Users/GeorginaCable/OneDrive - NHS/Analysis/Diagnostics/Endoscopy Stocktake/240916 Endoscopy Stocktake Analysis.xlsx", 
+                                  sheet = "Backing Data", skip = 2)
 
 # Rename columns for ease
 colnames(endoscopy_stocktake) <- c('ICB', 'Trust', 'Directorate', 'UnitName', 'QuestionKey','Question', 'Value', 'ValueType', 'SetResponseAnswer', 'FreeText', 'blank1', 'blank2', 'blank3')
