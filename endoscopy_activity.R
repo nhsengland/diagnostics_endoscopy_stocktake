@@ -6,17 +6,22 @@ library(kableExtra)
 library(scales)
 
 # Import data from file
-diagnostics_data <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Restricted Library/SE/Analysis/Diagnostics/Diagnostics Dashboard/Diagnostics Dashboard DATA.xlsx", 
-                               col_types = c("text", "text", "skip", 
+diagnostics_data <- read_excel("C:/Users/GeorginaCable/OneDrive - NHS/Analysis/Diagnostics/Diagnostics Dashboard/Diagnostics Dashboard DATA.xlsx", sheet = "Raw",
+                               col_types = c("date", "text", "skip", 
                                              "text", "skip", "skip", "skip", "skip", 
                                              "skip", "numeric", "skip", "skip", 
                                              "skip"))
 
-endoscopy_stocktake <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Restricted Library/SE/Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
+# endoscopy_stocktake <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Restricted Library/SE/Analysis/Diagnostics/Endoscopy Stocktake/Endoscopy Stocktake Database with pivot table.xlsx", 
+#                                   sheet = "Backing Data", skip = 2)
+
+endoscopy_stocktake <- read_excel("C:/Users/GeorginaCable/OneDrive - NHS/Analysis/Diagnostics/Endoscopy Stocktake/240916 Endoscopy Stocktake Analysis.xlsx", 
                                   sheet = "Backing Data", skip = 2)
 
 # Import provider names
-Lookups <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Reference/Lookups.xlsx", 
+# Lookups <- read_excel("C:/Users/martin.bloyce/OneDrive - NHS England/Reference/Lookups.xlsx", 
+#                       sheet = "ProviderMapping")
+Lookups <- read_excel("C:/Users/GeorginaCable/OneDrive - NHS/Analysis/Diagnostics/Endoscopy Stocktake/Lookups.xlsx", 
                       sheet = "ProviderMapping")
 colnames(Lookups) <- c('orgname', 'orgshortname', 'orgcode', 'systemcode', 'systemname', 'systemshortname', 'orgtype', 'region')
 Lookups <- Lookups[ , c('orgcode','orgshortname', 'systemshortname')]
@@ -25,7 +30,7 @@ Lookups <- Lookups[ , c('orgcode','orgshortname', 'systemshortname')]
 colnames(diagnostics_data) <- c('month', 'test', 'orgcode', 'activity')  # Rename columns
 diagnostics_data <- subset(diagnostics_data,
                            test %in% c('COLONOSCOPY', 'GASTROSCOPY'))  # Subset endoscopy tests
-diagnostics_data$month <- as.Date(paste0("01-", diagnostics_data$month), format = "%d-%b-%y")  # Set 'month' to date type
+#diagnostics_data$month <- as.Date(paste0("01-", diagnostics_data$month), format = "%d-%b-%y")  # Set 'month' to date type
 diagnostics_data <- diagnostics_data %>%
   mutate(orgcode = ifelse(orgcode == "RXH", "RYR", orgcode))  # Merge Brighton and UH Sussex
 
